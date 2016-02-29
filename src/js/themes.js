@@ -10,7 +10,7 @@ angular.module('xeditable').factory('editableThemes', function() {
   var themes = {
     //default
     'default': {
-      formTpl:      '<form class="editable-wrap"></form>',
+      formTpl:      '<div class="editable-wrap"></div>',
       noformTpl:    '<span class="editable-wrap"></span>',
       controlsTpl:  '<span class="editable-controls"></span>',
       inputTpl:     '',
